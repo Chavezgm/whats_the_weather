@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe MapQuestPoro do
   describe '#initialize' do
-    it 'assigns the latitude and longitude' do
+    it 'has latitude and longitude' do
       data = {
         latLng: {
           lat: 39.10713,

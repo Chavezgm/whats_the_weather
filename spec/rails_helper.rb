@@ -81,6 +81,6 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.configure_rspec_metadata!
   config.ignore_localhost = true
-  # config.filter_sensitive_data('NREL_KEY') { Rails.application.credentials.fuel[:key] }
+  config.filter_sensitive_data('WEATHER_KEY') { Rails.application.credentials.weather[:key] }
   config.filter_sensitive_data('MAP_QUEST_KEY') { Rails.application.credentials.mapquest[:key] }
 end

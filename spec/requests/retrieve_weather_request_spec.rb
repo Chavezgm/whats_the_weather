@@ -74,3 +74,4 @@ RSpec.describe 'Retrieve weather for a city', :vcr do
     end
   end
 end
+
