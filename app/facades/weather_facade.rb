@@ -4,6 +4,7 @@ class WeatherFacade
     weather_response = service.get_current_weather(lat,lon)[:current]
    #we are organizing what we want when we call for the current weather.
    #we are gettin the lat and long when we call it our serializer  
+  #  require 'pry'; binding.pry
     { 
       last_updated: weather_response[:last_updated],
       temperature: weather_response[:temp_f],
@@ -38,6 +39,7 @@ class WeatherFacade
   def forecast_hourly(lat, lon)
     service = WeatherService.new
     forecast_response = service.get_forecast_hourly(lat, lon)[:forecast][:forecastday].first[:hour]
+    # require 'pry'; binding.pry
     forecast_response.map do |data|
       {
         time: data[:time].split(' ')[1], #have to take the date out of the time!!! 
