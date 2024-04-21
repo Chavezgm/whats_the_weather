@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/current.json?key=6dca49a0a7334579b74231015241904&q=50.9898,6.8989
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 21 Apr 2024 01:24:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999978'
+      X-Varnish:
+      - '34443979'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/21/2024 01:24:49
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - cf48b37c0e32d7abcf8a7e0cf98824e0
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Leverkusen","region":"Nordrhein-Westfalen","country":"Germany","lat":50.99,"lon":6.9,"tz_id":"Europe/Berlin","localtime_epoch":1713662689,"localtime":"2024-04-21
+        3:24"},"current":{"last_updated_epoch":1713662100,"last_updated":"2024-04-21
+        03:15","temp_c":4.0,"temp_f":39.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":4.3,"wind_kph":6.8,"wind_degree":340,"wind_dir":"NNW","pressure_mb":1020.0,"pressure_in":30.12,"precip_mm":0.08,"precip_in":0.0,"humidity":93,"cloud":50,"feelslike_c":0.5,"feelslike_f":32.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":12.9,"gust_kph":20.7}}'
+  recorded_at: Sun, 21 Apr 2024 01:24:49 GMT
+recorded_with: VCR 6.2.0
