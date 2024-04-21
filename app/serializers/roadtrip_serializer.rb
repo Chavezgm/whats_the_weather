@@ -8,7 +8,7 @@ class RoadtripSerializer
     travel_time = directions_facade.here_to_there(from, to)
 
     if travel_time[:error]
-      {error: "Impossible"}
+      { error: "Impossible", status: 422 }
     else 
       # require 'pry'; binding.pry
       location_lat_lng = MapQuestFacade.get_lat_long(to)
