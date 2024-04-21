@@ -1,7 +1,38 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/martinchavez/mod3/projects/whats_the_weather/app/poros/map_quest_poro.rb": {
+      "/Users/martinchavez/mod3/projects/whats_the_weather/app/controllers/api/v0/users_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/martinchavez/mod3/projects/whats_the_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/martinchavez/mod3/projects/whats_the_weather/app/models/user.rb": {
         "lines": [
           1,
           1,
@@ -11,10 +42,22 @@
           1,
           1,
           null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/martinchavez/mod3/projects/whats_the_weather/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1713665446
+    "timestamp": 1713681110
   }
 }
