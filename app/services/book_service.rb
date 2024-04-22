@@ -1,6 +1,7 @@
+
 class BookService
-  def get_location(citystate)
-    info = get_url("/search.json?q=#{citystate}&limit=5")
+  def get_book(title, quantity)
+    info = get_url("/search.json?q=#{title}&limit=#{quantity}")
     # require 'pry'; binding.pry
   end
 

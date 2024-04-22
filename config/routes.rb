@@ -17,5 +17,14 @@ Rails.application.routes.draw do
     end
   end
 
+  namespace :api do
+    namespace :v1 do
+      get '/book-search', to: 'search#search_books'
+      
+      # Add more routes for version 1 API as needed
+    end
+  end
+
+
 
 end
