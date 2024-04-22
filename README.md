@@ -180,7 +180,7 @@ POST /api/v0/road_trip
 }
 
 Response Example:
-
+```json
 {
   "data": {
     "id": null,
@@ -197,6 +197,7 @@ Response Example:
     }
   }
 }
+```
 
 
 
