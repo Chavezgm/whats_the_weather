@@ -100,20 +100,25 @@ GET /api/v0/forecast?location=cincinnati,oh
   }
 }
 
-2. User Registration
-Endpoint: POST /api/v0/users
+### 2. User Registration
+
+**Endpoint:** `POST /api/v0/users`
 
 This endpoint allows users to register with the application.
 
-Request Example:
+**Description:**
 
+This endpoint creates a new user with the provided email and password.
+
+**Request Example:**
+
+```json
 POST /api/v0/users
 {
   "email": "user@example.com",
   "password": "password",
   "password_confirmation": "password"
 }
-
 Response Example:
 
 {
@@ -127,13 +132,19 @@ Response Example:
   }
 }
 
-3. Login
-Endpoint: POST /api/v0/sessions
+### 3. Login
+
+**Endpoint:** `POST /api/v0/sessions`
 
 This endpoint allows users to log in to the application.
 
-Request Example:
+**Description:**
 
+This endpoint authenticates a user by verifying the provided email and password.
+
+**Request Example:**
+
+```json
 POST /api/v0/sessions
 {
   "email": "user@example.com",
