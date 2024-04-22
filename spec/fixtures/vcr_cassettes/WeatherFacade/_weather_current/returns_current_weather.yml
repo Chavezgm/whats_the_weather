@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/current.json?key=WEATHER_KEY&q=67.99,3.5689
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 22 Apr 2024 00:17:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-845
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999961'
+      X-Varnish:
+      - '36136860'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/22/2024 00:17:38
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - b8302cc886e713d90461d8d59cc60b70
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Albuquerque","region":"New Mexico","country":"United
+        States of America","lat":35.08,"lon":-106.65,"tz_id":"America/Denver","localtime_epoch":1713744938,"localtime":"2024-04-21
+        18:15"},"current":{"last_updated_epoch":1713744900,"last_updated":"2024-04-21
+        18:15","temp_c":21.7,"temp_f":71.1,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":3.8,"wind_kph":6.1,"wind_degree":10,"wind_dir":"N","pressure_mb":1020.0,"pressure_in":30.13,"precip_mm":0.0,"precip_in":0.0,"humidity":26,"cloud":25,"feelslike_c":21.7,"feelslike_f":71.1,"vis_km":16.0,"vis_miles":9.0,"uv":6.0,"gust_mph":10.0,"gust_kph":16.2}}'
+  recorded_at: Mon, 22 Apr 2024 00:17:38 GMT
+recorded_with: VCR 6.2.0
