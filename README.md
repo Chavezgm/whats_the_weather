@@ -99,6 +99,7 @@ GET /api/v0/forecast?location=cincinnati,oh
     }
   }
 }
+```
 
 ### 2. User Registration
 
@@ -131,7 +132,7 @@ Response Example:
     }
   }
 }
-
+```
 ### 3. Login
 
 **Endpoint:** `POST /api/v0/sessions`
@@ -163,7 +164,7 @@ Response Example:
     }
   }
 }
-
+```
 4. Road Trip Planning
 Endpoint: POST /api/v0/road_trip
 
