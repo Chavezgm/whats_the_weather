@@ -30,9 +30,6 @@ RSpec.describe 'Munchies' do
     expect(attributes[:restaurant][:address]).to be_a(String)
     expect(attributes[:restaurant][:rating]).to be_a(Float)
     expect(attributes[:restaurant][:reviews]).to be_a(Integer)
-
-    
-
   end
 end
 
