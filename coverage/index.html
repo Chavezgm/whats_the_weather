@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-23T10:14:35-06:00">2024-04-23T10:14:35-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-23T10:24:32-06:00">2024-04-23T10:24:32-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>26</b> relevant lines,
-    <span class="green"><b>26</b> lines covered</span> and
+    <b>24</b> relevant lines,
+    <span class="green"><b>24</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -71,11 +71,11 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#0dc16a0ed3dbd007d36ea45d9ab33ffdeec0079d" class="src_link" title="app/facades/restaurant_facade.rb">app/facades/restaurant_facade.rb</a></td>
+            <td class="strong t-file__name"><a href="#914431dccb348818a6b31dd2a7519a41805b56be" class="src_link" title="app/poros/map_quest_poro.rb">app/poros/map_quest_poro.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">17</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">6</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">5</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -93,11 +93,11 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#c6ba93cc9a00d5cd5502e7b957feee994f02471c" class="src_link" title="app/services/restaurant_service.rb">app/services/restaurant_service.rb</a></td>
+            <td class="strong t-file__name"><a href="#05baebb626058241bec5336811b0c4d9665070f4" class="src_link" title="spec/poros/restaurant_poro_spec.rb">spec/poros/restaurant_poro_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">18</td>
-            <td class="cell--number">12</td>
-            <td class="cell--number">12</td>
+            <td class="cell--number">30</td>
+            <td class="cell--number">11</td>
+            <td class="cell--number">11</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -120,9 +120,9 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="0dc16a0ed3dbd007d36ea45d9ab33ffdeec0079d">
+        <div class="source_table" id="914431dccb348818a6b31dd2a7519a41805b56be">
   <div class="header">
-    <h3>app/facades/restaurant_facade.rb</h3>
+    <h3>app/poros/map_quest_poro.rb</h3>
     <h4>
       <span class="green">
   100.0%
@@ -134,8 +134,8 @@
     
 
     <div class="t-line-summary">
-      <b>6</b> relevant lines.
-      <span class="green"><b>6</b> lines covered</span> and
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -153,7 +153,7 @@
 
             
 
-            <code class="ruby">class RestaurantFacade</code>
+            <code class="ruby">class MapQuestPoro</code>
           </li>
         </div>
       
@@ -164,45 +164,34 @@
 
             
 
-            <code class="ruby">  def search_fo_restaurant(lat, lon , cuisine)</code>
+            <code class="ruby">  attr_reader :lat, :lng</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="3">
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">  </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    restaurant_s = RestaurantService.new</code>
+            <code class="ruby">  def initialize(data)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="4">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    response = restaurant_s.search(lat, lon , cuisine)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="6">
+          <li class="never" data-hits="" data-linenumber="5">
             
             
 
@@ -213,106 +202,29 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="7">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
+          <li class="covered" data-hits="1" data-linenumber="6">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    restaurant = RestaurantPoro.new(response)</code>
+            <code class="ruby">    @lat = data[:latLng][:lat]</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="10">
-            
-            
-
-            
-
-            <code class="ruby">    {</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="11">
+          <li class="covered" data-hits="1" data-linenumber="7">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">      name: restaurant.name,</code>
+            <code class="ruby">    @lng = data[:latLng][:lng]</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
-            
-            
-
-            
-
-            <code class="ruby">      address: restaurant.address,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="13">
-            
-            
-
-            
-
-            <code class="ruby">      rating: restaurant.rating,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="14">
-            
-            
-
-            
-
-            <code class="ruby">      reviews: restaurant.reviews</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="15">
-            
-            
-
-            
-
-            <code class="ruby">    }</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="16">
+          <li class="never" data-hits="" data-linenumber="8">
             
             
 
@@ -323,7 +235,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="17">
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 
@@ -490,9 +402,9 @@
 </div>
 
       
-        <div class="source_table" id="c6ba93cc9a00d5cd5502e7b957feee994f02471c">
+        <div class="source_table" id="05baebb626058241bec5336811b0c4d9665070f4">
   <div class="header">
-    <h3>app/services/restaurant_service.rb</h3>
+    <h3>spec/poros/restaurant_poro_spec.rb</h3>
     <h4>
       <span class="green">
   100.0%
@@ -504,8 +416,8 @@
     
 
     <div class="t-line-summary">
-      <b>12</b> relevant lines.
-      <span class="green"><b>12</b> lines covered</span> and
+      <b>11</b> relevant lines.
+      <span class="green"><b>11</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -523,45 +435,12 @@
 
             
 
-            <code class="ruby">class RestaurantService</code>
+            <code class="ruby">require &#39;rails_helper&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="2">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  def conn</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="3">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    Faraday.new(url: &quot;https://api.yelp.com/v3/&quot; )</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="4">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="5">
+          <li class="never" data-hits="" data-linenumber="2">
             
             
 
@@ -572,13 +451,46 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
+          <li class="covered" data-hits="1" data-linenumber="3">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">  def search(lat, lon, cuisine) </code>
+            <code class="ruby">RSpec.describe RestaurantPoro do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &#39;#initialize&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;has latitude and longitude&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">      data = {</code>
           </li>
         </div>
       
@@ -589,73 +501,73 @@
 
             
 
-            <code class="ruby">    response = conn.get(&quot;businesses/search&quot;) do |r|</code>
+            <code class="ruby">        businesses: [</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="8">
+            
             
 
             
 
-            <code class="ruby">      r.params[&#39;latitude&#39;] = lat</code>
+            <code class="ruby">          {</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="9">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="9">
+            
             
 
             
 
-            <code class="ruby">      r.params[&#39;longitude&#39;] = lon</code>
+            <code class="ruby">            name: &quot;Radicato&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="10">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="10">
+            
             
 
             
 
-            <code class="ruby">      r.params[&#39;categories&#39;] = cuisine</code>
+            <code class="ruby">            location: { display_address: [&quot;137 S Main St, Breckenridge, CO 80424&quot;] },</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="11">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="11">
+            
             
 
             
 
-            <code class="ruby">      r.params[&#39;sort_by&#39;] = &#39;rating&#39;</code>
+            <code class="ruby">            rating: 4.3,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="12">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="12">
+            
             
 
             
 
-            <code class="ruby">      r.params[&#39;limit&#39;] = 1</code>
+            <code class="ruby">            review_count: 100</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="13">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="13">
+            
             
 
             
 
-            <code class="ruby">      r.headers[&#39;Authorization&#39;] = &quot;Bearer #{Rails.application.credentials.yelp[:key]}&quot;</code>
+            <code class="ruby">          }</code>
           </li>
         </div>
       
@@ -666,18 +578,18 @@
 
             
 
-            <code class="ruby">    end</code>
+            <code class="ruby">        ]</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="15">
+            
             
 
             
 
-            <code class="ruby">    JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">      }</code>
           </li>
         </div>
       
@@ -688,12 +600,144 @@
 
             
 
-            <code class="ruby">    # require &#39;pry&#39;; binding.pry</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="17">
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      restaurant_poro = RestaurantPoro.new(data)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(restaurant_poro).to be_a(RestaurantPoro)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(restaurant_poro.name).to eq(&quot;Radicato&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(restaurant_poro.address).to eq(&quot;137 S Main St, Breckenridge, CO 80424&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(restaurant_poro.rating).to eq(4.3)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(restaurant_poro.reviews).to eq(100)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby">      </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby">      </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="29">
             
             
 
@@ -704,7 +748,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="18">
+          <li class="never" data-hits="" data-linenumber="30">
             
             
 

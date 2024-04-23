@@ -1,44 +1,48 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/martinchavez/mod3/projects/whats_the_weather/app/facades/restaurant_facade.rb": {
+      "/Users/martinchavez/mod3/projects/whats_the_weather/app/poros/map_quest_poro.rb": {
         "lines": [
           1,
           1,
-          1,
           null,
           1,
           null,
-          null,
           1,
-          null,
-          null,
           1,
-          null,
-          null,
-          null,
-          null,
           null,
           null
         ]
       },
-      "/Users/martinchavez/mod3/projects/whats_the_weather/app/services/restaurant_service.rb": {
+      "/Users/martinchavez/mod3/projects/whats_the_weather/spec/poros/restaurant_poro_spec.rb": {
         "lines": [
           1,
-          1,
-          1,
           null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
           null,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null
@@ -60,6 +64,6 @@
         ]
       }
     },
-    "timestamp": 1713888875
+    "timestamp": 1713889472
   }
 }
