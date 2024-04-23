@@ -4,7 +4,7 @@ RSpec.describe 'Munchies' do
   it " returns data for munchies", :vcr do
     headers = {"CONTENT_TYPE": "application/json" , "ACCEPT": "application/json" } 
 
-    get "/api/v1/munchies", params: {location: 'pueblo,co', food: "italian"}
+    get "/api/v1/munchies", params: {destination: 'pueblo,co', food: "italian"}
 
     expect(response).to be_successful
 
