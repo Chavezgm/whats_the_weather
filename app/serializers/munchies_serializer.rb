@@ -5,18 +5,17 @@ class MunchiesSerializer
     map_quest = MapQuestFacade
 
     coordinates = map_quest.get_lat_long(loc)
-    require 'pry'; binding.pry
-
     {
       "data":{
         "id": nil,
         "type": "munchie",
         "attributes": {
           "destination_city": loc,
-          "forecast":
+          "forecast": weather.munchies_weather_current(coordinates[:lat], coordinates[:lon]),
+          "restaurant": restaurant_facade.search_for_restaurant(coordinates[:lat], coordinates[:lon], cuisine)
         }
       }
-    }
+    }.to_json
 
   end
 end
