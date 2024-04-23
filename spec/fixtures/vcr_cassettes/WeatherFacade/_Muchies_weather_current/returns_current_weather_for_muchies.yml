@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Apr 2024 17:16:59 GMT
+      - Tue, 23 Apr 2024 17:17:00 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -59,14 +59,14 @@ http_interactions:
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - e9191d3a256975fb9ab1760d735365b5
+      - 935dba3a3380f1aad7f532aefaafeeb0
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Albuquerque","region":"New Mexico","country":"United
         States of America","lat":35.08,"lon":-106.65,"tz_id":"America/Denver","localtime_epoch":1713892591,"localtime":"2024-04-23
         11:16"},"current":{"last_updated_epoch":1713892500,"last_updated":"2024-04-23
         11:15","temp_c":23.0,"temp_f":73.4,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":140,"wind_dir":"SE","pressure_mb":1020.0,"pressure_in":30.11,"precip_mm":0.0,"precip_in":0.0,"humidity":17,"cloud":0,"feelslike_c":22.6,"feelslike_f":72.7,"vis_km":16.0,"vis_miles":9.0,"uv":6.0,"gust_mph":5.7,"gust_kph":9.1}}'
-  recorded_at: Tue, 23 Apr 2024 17:16:59 GMT
+  recorded_at: Tue, 23 Apr 2024 17:17:00 GMT
 recorded_with: VCR 6.2.0

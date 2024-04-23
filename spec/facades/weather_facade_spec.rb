@@ -55,8 +55,8 @@ RSpec.describe WeatherFacade do
     end
   end
 
-  describe '#weather current' do
-    it 'returns current weather', :vcr do
+  describe '# Muchies weather current' do
+    it 'returns current weather for muchies', :vcr do
       facade = WeatherFacade.new
       response = facade.munchies_weather_current(67.990, 3.5689)
 

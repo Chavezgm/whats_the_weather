@@ -4,7 +4,7 @@ RSpec.describe RestaurantFacade do
   describe '#here_to_to_there' do
     it 'returns the time for a trip', :vcr do
       facade = RestaurantFacade.new
-      response = facade.search_fo_restaurant(39.74001, -105.99202, 'italian')
+      response = facade.search_for_restaurant(39.74001, -105.99202, 'italian')
 
       expect(response).to be_a(Hash)
       # require 'pry'; binding.pry
