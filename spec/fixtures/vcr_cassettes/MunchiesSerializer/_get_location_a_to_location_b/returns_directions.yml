@@ -1,0 +1,195 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=MAP_QUEST_KEY&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 17:28:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '797'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - f6c088f0-0196-11ef-9e28-0da246a16d8a
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"31d-Mbjh6n54X4V7FeaQKoW5jnBZ1ZI"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJEZW52ZXIsQ08ifSwibG9jYXRpb25zIjpbeyJzdHJlZXQiOiIiLCJhZG1pbkFyZWE2IjoiIiwiYWRtaW5BcmVhNlR5cGUiOiJOZWlnaGJvcmhvb2QiLCJhZG1pbkFyZWE1IjoiRGVudmVyIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6IkRlbnZlciIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6IkNPIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0IjozOS43NDAwMSwibG5nIjotMTA0Ljk5MjAyfSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjM5Ljc0MDAxLCJsbmciOi0xMDQuOTkyMDJ9LCJtYXBVcmwiOiIifV19XX0=
+  recorded_at: Tue, 23 Apr 2024 17:28:57 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/current.json?key=WEATHER_KEY&q=39.74001,-104.99202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 17:28:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1067
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999863'
+      X-Varnish:
+      - '43082443'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 17:28:57
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - f63e228e194cbbcfed84cc59e9d7a967
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"United
+        States of America","lat":39.74,"lon":-104.99,"tz_id":"America/Denver","localtime_epoch":1713893214,"localtime":"2024-04-23
+        11:26"},"current":{"last_updated_epoch":1713892500,"last_updated":"2024-04-23
+        11:15","temp_c":11.0,"temp_f":51.8,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":130,"wind_dir":"SE","pressure_mb":1021.0,"pressure_in":30.16,"precip_mm":0.0,"precip_in":0.0,"humidity":30,"cloud":50,"feelslike_c":10.5,"feelslike_f":50.9,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":12.5,"gust_kph":20.2}}'
+  recorded_at: Tue, 23 Apr 2024 17:28:57 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?categories=italian&latitude=39.74001&limit=1&longitude=-104.99202&sort_by=rating
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Authorization:
+      - Bearer YELP_KEY
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Resettime:
+      - '2024-04-24T00:00:00+00:00'
+      X-Tracing-Auth:
+      - RD3Yk9r_4oeFShqoGqWp5r5R1nb_VlEqMZRTglz4wl8
+      X-Routing-Service:
+      - routing-main--useast1-59868f95f7-6mz8t; site=public_api_v3
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '300'
+      Ratelimit-Remaining:
+      - '287'
+      X-Zipkin-Id:
+      - 0f602ca4a34a1923
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-110-174-useast1aprod
+      X-Extlb:
+      - 10-65-110-174-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 23 Apr 2024 17:28:57 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-den8277-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "v17HR-dKH3ny_6SZBnNE2w", "alias": "meadow-lark-farm-dinners-denver",
+        "name": "Meadow Lark Farm Dinners", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/x7_1Tg8Vdmpjn-tJp-fgJQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/meadow-lark-farm-dinners-denver?adjust_creative=G-Nla0_yczgSPAhUnsNggQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=G-Nla0_yczgSPAhUnsNggQ",
+        "review_count": 8, "categories": [{"alias": "italian", "title": "Italian"}],
+        "rating": 5.0, "coordinates": {"latitude": 39.73121, "longitude": -104.98225},
+        "transactions": [], "price": "$$$$", "location": {"address1": "", "address2":
+        "", "address3": "", "city": "Denver", "zip_code": "80203", "country": "US",
+        "state": "CO", "display_address": ["Denver, CO 80203"]}, "phone": "+13037105336",
+        "display_phone": "(303) 710-5336", "distance": 1262.2189589386046, "attributes":
+        {"business_temp_closed": null, "menu_url": null, "open24_hours": null, "waitlist_reservation":
+        null}}], "total": 105, "region": {"center": {"longitude": -104.99202, "latitude":
+        39.74001}}}'
+  recorded_at: Tue, 23 Apr 2024 17:28:57 GMT
+recorded_with: VCR 6.2.0
