@@ -1,0 +1,169 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?categories=italian&latitude=39.74001&limit=1&longitude=-105.99202&sort_by=rating
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Authorization:
+      - Bearer YELP_KEY
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Resettime:
+      - '2024-04-24T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
+      X-Routing-Service:
+      - routing-main--useast1-59868f95f7-qkmqj; site=public_api_v3
+      X-Zipkin-Id:
+      - 51d2869e02e13e7b
+      Ratelimit-Dailylimit:
+      - '300'
+      X-Tracing-Auth:
+      - bUYQTFJ_wsouyj8mlMxZvmnzr5PvWCVsU9QjhFe6qko
+      Server:
+      - envoy
+      Ratelimit-Remaining:
+      - '293'
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-173-164-useast1bprod
+      X-Extlb:
+      - 10-65-173-164-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 23 Apr 2024 15:27:22 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-den8228-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "xK4AUhlRIknwSyFjdg8vpg", "alias": "radicato-breckenridge",
+        "name": "Radicato", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Vze_u8c_OmP2SNmVpm3bug/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/radicato-breckenridge?adjust_creative=G-Nla0_yczgSPAhUnsNggQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=G-Nla0_yczgSPAhUnsNggQ",
+        "review_count": 107, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "salad", "title": "Salad"}, {"alias": "pastashops", "title": "Pasta
+        Shops"}], "rating": 4.8, "coordinates": {"latitude": 39.48079, "longitude":
+        -106.04645}, "transactions": [], "location": {"address1": "137 S Main St",
+        "address2": null, "address3": "", "city": "Breckenridge", "zip_code": "80424",
+        "country": "US", "state": "CO", "display_address": ["137 S Main St", "Breckenridge,
+        CO 80424"]}, "phone": "+19704530989", "display_phone": "(970) 453-0989", "distance":
+        29199.96869672775, "attributes": {"business_temp_closed": null, "menu_url":
+        "https://www.radicatobreck.com/dinner", "open24_hours": null, "waitlist_reservation":
+        null}}], "total": 25, "region": {"center": {"longitude": -105.99202, "latitude":
+        39.74001}}}'
+  recorded_at: Tue, 23 Apr 2024 15:27:22 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?categories=italian&latitude=39.74001&limit=1&longitude=-105.99202&sort_by=rating
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Authorization:
+      - Bearer YELP_KEY
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - 46b29d46b05377fe
+      Ratelimit-Dailylimit:
+      - '300'
+      Ratelimit-Remaining:
+      - '292'
+      Server:
+      - envoy
+      X-Tracing-Auth:
+      - PCYYFJPHlTwHhTnqK94o8ZCacvCaY7g0W_FdnNP-BXI
+      X-Routing-Service:
+      - routing-main--useast1-59868f95f7-6zgk5; site=public_api_v3
+      Ratelimit-Resettime:
+      - '2024-04-24T00:00:00+00:00'
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-109-27-useast1aprod
+      X-Extlb:
+      - 10-65-109-27-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 23 Apr 2024 15:28:26 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-den8257-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "xK4AUhlRIknwSyFjdg8vpg", "alias": "radicato-breckenridge",
+        "name": "Radicato", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Vze_u8c_OmP2SNmVpm3bug/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/radicato-breckenridge?adjust_creative=G-Nla0_yczgSPAhUnsNggQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=G-Nla0_yczgSPAhUnsNggQ",
+        "review_count": 107, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "salad", "title": "Salad"}, {"alias": "pastashops", "title": "Pasta
+        Shops"}], "rating": 4.8, "coordinates": {"latitude": 39.48079, "longitude":
+        -106.04645}, "transactions": [], "location": {"address1": "137 S Main St",
+        "address2": null, "address3": "", "city": "Breckenridge", "zip_code": "80424",
+        "country": "US", "state": "CO", "display_address": ["137 S Main St", "Breckenridge,
+        CO 80424"]}, "phone": "+19704530989", "display_phone": "(970) 453-0989", "distance":
+        29199.96869672775, "attributes": {"business_temp_closed": null, "menu_url":
+        "https://www.radicatobreck.com/dinner", "open24_hours": null, "waitlist_reservation":
+        null}}], "total": 25, "region": {"center": {"longitude": -105.99202, "latitude":
+        39.74001}}}'
+  recorded_at: Tue, 23 Apr 2024 15:28:26 GMT
+recorded_with: VCR 6.2.0

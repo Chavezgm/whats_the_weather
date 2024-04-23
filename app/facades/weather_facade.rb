@@ -1,6 +1,7 @@
 class WeatherFacade
   def weather_current(lat, lon)
     service = WeatherService.new
+    # require 'pry'; binding.pry -------!!!
     weather_response = service.get_current_weather(lat,lon)[:current]
    #we are organizing what we want when we call for the current weather.
    #we are gettin the lat and long when we call it our serializer  
