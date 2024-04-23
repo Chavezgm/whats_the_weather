@@ -1,5 +1,5 @@
 class RestaurantFacade
-  def search_fo_restaurant(lat, lon , cuisine)
+  def search_for_restaurant(lat, lon , cuisine)
     restaurant_s = RestaurantService.new
 
     response = restaurant_s.search(lat, lon , cuisine)
