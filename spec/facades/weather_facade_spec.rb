@@ -54,5 +54,19 @@ RSpec.describe WeatherFacade do
       end
     end
   end
+
+  describe '#weather current' do
+    it 'returns current weather', :vcr do
+      facade = WeatherFacade.new
+      response = facade.munchies_weather_current(67.990, 3.5689)
+
+      # require 'pry'; binding.pry
+      expect(response).to be_a(Hash)
+
+      expect(response[:temperature]).to be_a(Float)
+      expect(response[:summary]).to be_a(String)
+      
+    end
+  end
 end
   

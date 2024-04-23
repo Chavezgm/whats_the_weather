@@ -51,4 +51,16 @@ class WeatherFacade
     end
     # require 'pry'; binding.pry
   end
+
+  def munchies_weather_current(lat, lon)
+    service = WeatherService.new
+    weather_response = service.get_current_weather(lat,lon)[:current]
+    
+    { 
+      temperature: weather_response[:temp_f],
+      summary: weather_response[:condition][:text],
+    }
+    #will give the last lines
+  end
+
 end

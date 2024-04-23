@@ -19,10 +19,6 @@ RSpec.describe RestaurantFacade do
 
       expect(response).to have_key(:reviews)
       expect(response[:reviews]).to be_a(Integer)
-
-
-
-      
     end
   end
 end
