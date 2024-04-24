@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 21 Apr 2024 23:15:12 GMT
+      - Wed, 24 Apr 2024 00:44:00 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-845
+      - BunnyCDN-IL1-941
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -43,9 +43,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999961'
+      - '4999793'
       X-Varnish:
-      - '35306621'
+      - '50471933'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -53,19 +53,19 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/21/2024 23:15:12
+      - 04/24/2024 00:44:00
       Cdn-Edgestorageid:
       - '1068'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 63a8b191306a820357596f189f9ad327
+      - 4f8e4473ae1c3c74e5fab8971d374930
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
-      string: '{"location":{"name":"Leverkusen","region":"Nordrhein-Westfalen","country":"Germany","lat":50.99,"lon":6.9,"tz_id":"Europe/Berlin","localtime_epoch":1713741191,"localtime":"2024-04-22
-        1:13"},"current":{"last_updated_epoch":1713740400,"last_updated":"2024-04-22
-        01:00","temp_c":2.0,"temp_f":35.6,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":60,"wind_dir":"ENE","pressure_mb":1025.0,"pressure_in":30.27,"precip_mm":0.0,"precip_in":0.0,"humidity":75,"cloud":0,"feelslike_c":-0.1,"feelslike_f":31.7,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":8.1,"gust_kph":13.0}}'
-  recorded_at: Sun, 21 Apr 2024 23:15:12 GMT
+      string: '{"location":{"name":"Leverkusen","region":"Nordrhein-Westfalen","country":"Germany","lat":50.99,"lon":6.9,"tz_id":"Europe/Berlin","localtime_epoch":1713919440,"localtime":"2024-04-24
+        2:44"},"current":{"last_updated_epoch":1713918600,"last_updated":"2024-04-24
+        02:30","temp_c":5.0,"temp_f":41.0,"is_day":0,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/night/296.png","code":1183},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":260,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.54,"precip_in":0.02,"humidity":87,"cloud":75,"feelslike_c":2.6,"feelslike_f":36.8,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":16.3,"gust_kph":26.3}}'
+  recorded_at: Wed, 24 Apr 2024 00:44:00 GMT
 recorded_with: VCR 6.2.0

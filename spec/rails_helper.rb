@@ -83,4 +83,5 @@ VCR.configure do |config|
   config.ignore_localhost = true
   config.filter_sensitive_data('WEATHER_KEY') { Rails.application.credentials.weather[:key] }
   config.filter_sensitive_data('MAP_QUEST_KEY') { Rails.application.credentials.mapquest[:key] }
+  config.filter_sensitive_data('YELP_KEY') { Rails.application.credentials.yelp[:key] }
 end

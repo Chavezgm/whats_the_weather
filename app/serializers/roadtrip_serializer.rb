@@ -10,8 +10,8 @@ class RoadtripSerializer
     if travel_time[:error]
       { error: "Impossible", status: 422 }
     else 
-      # require 'pry'; binding.pry
       location_lat_lng = MapQuestFacade.get_lat_long(to)
+      # require 'pry'; binding.pry
       forecast =  weather_facade.forecast_hourly(location_lat_lng[:lat],location_lat_lng[:lon])
       {
         "data": {
@@ -42,3 +42,4 @@ class RoadtripSerializer
 
   end
 end
+

@@ -1,6 +1,6 @@
 RSpec.describe RoadtripSerializer do
-  describe '#get_location_a_to_location_b' do
-    it 'returns directions', :vcr do
+  describe '#road trip' do
+    it 'road trip', :vcr do
       serializer = RoadtripSerializer
 
       road_trip_response = serializer.serialize_roadtrip("Denver,CO", "New York City,NY")
