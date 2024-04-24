@@ -25,37 +25,37 @@ http_interactions:
       Content-Type:
       - application/json
       Ratelimit-Resettime:
-      - '2024-04-24T00:00:00+00:00'
-      X-Zipkin-Id:
-      - f8466d724473d518
-      X-Tracing-Auth:
-      - DqdxT5_MYn1wVLXfN8xLyzS8i3N6ywOhPKocEZIUGyI
+      - '2024-04-25T00:00:00+00:00'
       X-Routing-Service:
-      - routing-main--useast1-59868f95f7-58dgb; site=public_api_v3
-      Server:
-      - envoy
-      Ratelimit-Remaining:
-      - '278'
+      - routing-main--useast1-59868f95f7-6w27h; site=public_api_v3
+      X-Tracing-Auth:
+      - AMTYCfMRlwimkxf254U7YamNKwHxrypY3U_KBq7lyxk
       Ratelimit-Dailylimit:
       - '300'
       X-B3-Sampled:
       - '0'
+      Server:
+      - envoy
+      Ratelimit-Remaining:
+      - '296'
+      X-Zipkin-Id:
+      - 9d799480204328fe
       X-Mode:
       - ro
       X-Proxied:
-      - 10-65-173-164-useast1bprod
+      - 10-65-109-27-useast1aprod
       X-Extlb:
-      - 10-65-173-164-useast1bprod
+      - 10-65-109-27-useast1aprod
       Cache-Control:
       - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 23 Apr 2024 22:25:28 GMT
+      - Wed, 24 Apr 2024 00:43:47 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8230-DEN
+      - cache-den8276-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -82,5 +82,5 @@ http_interactions:
         "https://www.radicatobreck.com/dinner", "open24_hours": null, "waitlist_reservation":
         null}}], "total": 25, "region": {"center": {"longitude": -105.99202, "latitude":
         39.74001}}}'
-  recorded_at: Tue, 23 Apr 2024 22:25:28 GMT
+  recorded_at: Wed, 24 Apr 2024 00:43:47 GMT
 recorded_with: VCR 6.2.0

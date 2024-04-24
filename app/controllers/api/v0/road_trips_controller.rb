@@ -12,7 +12,7 @@ class Api::V0::RoadTripsController < ApplicationController
       end
 
     else 
-      render json: { errors: 'Invalid api ket, try again!!!'} , status: :unauthorized
+      render json: { errors: 'Invalid api key, try again!!!'} , status: :unauthorized
     end
   end
 
@@ -22,3 +22,4 @@ class Api::V0::RoadTripsController < ApplicationController
     ActionController::Parameters.new(payload).permit(:origin, :destination, :api_key)
   end
 end
+

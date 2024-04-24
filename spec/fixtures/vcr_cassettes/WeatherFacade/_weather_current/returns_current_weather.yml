@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Apr 2024 22:25:29 GMT
+      - Wed, 24 Apr 2024 00:43:47 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-941
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -43,9 +43,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999840'
+      - '4999793'
       X-Varnish:
-      - '43384391'
+      - '49953619'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -53,21 +53,20 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/23/2024 22:25:29
+      - 04/24/2024 00:43:47
       Cdn-Edgestorageid:
       - '940'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 6f654e4a32a3aba65a0bf8663d34f9e4
+      - 616d6c759a104af48fdd23129eb1deec
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Albuquerque","region":"New Mexico","country":"United
-        States of America","lat":35.08,"lon":-106.65,"tz_id":"America/Denver","localtime_epoch":1713911006,"localtime":"2024-04-23
-        16:23"},"current":{"last_updated_epoch":1713910500,"last_updated":"2024-04-23
-        16:15","temp_c":27.2,"temp_f":81.0,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":180,"wind_dir":"S","pressure_mb":1016.0,"pressure_in":30.0,"precip_mm":0.0,"precip_in":0.0,"humidity":13,"cloud":50,"feelslike_c":25.4,"feelslike_f":77.7,"vis_km":16.0,"vis_miles":9.0,"uv":7.0,"gust_mph":9.3,"gust_kph":14.9}}'
-  recorded_at: Tue, 23 Apr 2024 22:25:29 GMT
+        States of America","lat":35.08,"lon":-106.65,"tz_id":"America/Denver","localtime_epoch":1713919304,"localtime":"2024-04-23
+        18:41"},"current":{"last_updated_epoch":1713918600,"last_updated":"2024-04-23
+        18:30","temp_c":27.0,"temp_f":80.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":160,"wind_dir":"SSE","pressure_mb":1016.0,"pressure_in":30.01,"precip_mm":0.0,"precip_in":0.0,"humidity":10,"cloud":0,"feelslike_c":25.2,"feelslike_f":77.4,"vis_km":16.0,"vis_miles":9.0,"uv":7.0,"gust_mph":16.3,"gust_kph":26.3}}'
+  recorded_at: Wed, 24 Apr 2024 00:43:47 GMT
 recorded_with: VCR 6.2.0

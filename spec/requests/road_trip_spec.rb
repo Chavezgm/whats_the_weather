@@ -69,7 +69,7 @@ RSpec.describe 'POST to road trip', type: :request do
       
       expect(data).to be_a(Hash)
       expect(data).to have_key(:errors)
-      expect(data[:errors]).to eq("Invalid api ket, try again!!!")
+      expect(data[:errors]).to eq("Invalid api key, try again!!!")
     end
 
     it ' creates DOES NOT create a road trip with wrong or no api key', :vcr do

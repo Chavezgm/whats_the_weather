@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Apr 2024 22:25:42 GMT
+      - Wed, 24 Apr 2024 00:44:01 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-941
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -43,9 +43,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999840'
+      - '4999793'
       X-Varnish:
-      - '52340006'
+      - '47100965'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -53,28 +53,26 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/23/2024 22:25:42
+      - 04/24/2024 00:44:01
       Cdn-Edgestorageid:
       - '1070'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 75e65a3d685ac03f4696945307cf0b05
+      - fe6bc1c1f2bde7a2b5208481398ad3b7
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
-      string: '{"location":{"name":"Leverkusen","region":"Nordrhein-Westfalen","country":"Germany","lat":50.99,"lon":6.9,"tz_id":"Europe/Berlin","localtime_epoch":1713911020,"localtime":"2024-04-24
-        0:23"},"current":{"last_updated_epoch":1713910500,"last_updated":"2024-04-24
-        00:15","temp_c":6.0,"temp_f":42.8,"is_day":0,"condition":{"text":"Moderate
-        rain","icon":"//cdn.weatherapi.com/weather/64x64/night/302.png","code":1189},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":250,"wind_dir":"WSW","pressure_mb":1014.0,"pressure_in":29.94,"precip_mm":0.75,"precip_in":0.03,"humidity":65,"cloud":75,"feelslike_c":3.4,"feelslike_f":38.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":10.6,"gust_kph":17.0},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":8.2,"maxtemp_f":46.8,"mintemp_c":4.0,"mintemp_f":39.2,"avgtemp_c":5.8,"avgtemp_f":42.5,"maxwind_mph":14.5,"maxwind_kph":23.4,"totalprecip_mm":9.07,"totalprecip_in":0.36,"totalsnow_cm":0.0,"avgvis_km":8.9,"avgvis_miles":5.0,"avghumidity":84,"daily_will_it_rain":1,"daily_chance_of_rain":94,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
+      string: '{"location":{"name":"Leverkusen","region":"Nordrhein-Westfalen","country":"Germany","lat":50.99,"lon":6.9,"tz_id":"Europe/Berlin","localtime_epoch":1713919331,"localtime":"2024-04-24
+        2:42"},"current":{"last_updated_epoch":1713918600,"last_updated":"2024-04-24
+        02:30","temp_c":5.0,"temp_f":41.0,"is_day":0,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/night/296.png","code":1183},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":260,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.54,"precip_in":0.02,"humidity":87,"cloud":75,"feelslike_c":2.6,"feelslike_f":36.8,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":16.3,"gust_kph":26.3},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":8.1,"maxtemp_f":46.6,"mintemp_c":3.5,"mintemp_f":38.2,"avgtemp_c":5.7,"avgtemp_f":42.3,"maxwind_mph":14.1,"maxwind_kph":22.7,"totalprecip_mm":7.98,"totalprecip_in":0.31,"totalsnow_cm":0.0,"avgvis_km":8.8,"avgvis_miles":5.0,"avghumidity":84,"daily_will_it_rain":1,"daily_chance_of_rain":96,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
         rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png","code":1189},"uv":3.0},"astro":{"sunrise":"06:18
         AM","sunset":"08:43 PM","moonrise":"09:43 PM","moonset":"06:15 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1713909600,"time":"2024-04-24
         00:00","temp_c":5.3,"temp_f":41.6,"is_day":0,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/266.png","code":1153},"wind_mph":9.8,"wind_kph":15.8,"wind_degree":259,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.92,"precip_mm":0.49,"precip_in":0.02,"snow_cm":0.0,"humidity":90,"cloud":100,"feelslike_c":2.0,"feelslike_f":35.7,"windchill_c":2.0,"windchill_f":35.7,"heatindex_c":5.3,"heatindex_f":41.6,"dewpoint_c":3.9,"dewpoint_f":39.0,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":13.4,"gust_kph":21.6,"uv":1.0},{"time_epoch":1713913200,"time":"2024-04-24
-        01:00","temp_c":6.0,"temp_f":42.8,"is_day":0,"condition":{"text":"Moderate
-        rain","icon":"//cdn.weatherapi.com/weather/64x64/night/302.png","code":1189},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":250,"wind_dir":"WSW","pressure_mb":1014.0,"pressure_in":29.94,"precip_mm":0.75,"precip_in":0.03,"snow_cm":0.0,"humidity":65,"cloud":75,"feelslike_c":2.4,"feelslike_f":36.2,"windchill_c":2.4,"windchill_f":36.2,"heatindex_c":5.2,"heatindex_f":41.3,"dewpoint_c":4.4,"dewpoint_f":39.9,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.6,"gust_kph":17.0,"uv":1.0},{"time_epoch":1713916800,"time":"2024-04-24
-        02:00","temp_c":4.9,"temp_f":40.7,"is_day":0,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/266.png","code":1153},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":327,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.54,"precip_in":0.02,"snow_cm":0.0,"humidity":93,"cloud":100,"feelslike_c":2.5,"feelslike_f":36.4,"windchill_c":2.5,"windchill_f":36.4,"heatindex_c":4.9,"heatindex_f":40.7,"dewpoint_c":3.9,"dewpoint_f":38.9,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":8.5,"gust_kph":13.8,"uv":1.0},{"time_epoch":1713920400,"time":"2024-04-24
+        01:00","temp_c":5.2,"temp_f":41.3,"is_day":0,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/266.png","code":1153},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":303,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.9,"precip_mm":0.75,"precip_in":0.03,"snow_cm":0.0,"humidity":95,"cloud":100,"feelslike_c":2.4,"feelslike_f":36.2,"windchill_c":2.4,"windchill_f":36.2,"heatindex_c":5.2,"heatindex_f":41.3,"dewpoint_c":4.4,"dewpoint_f":39.9,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":10.6,"gust_kph":17.0,"uv":1.0},{"time_epoch":1713916800,"time":"2024-04-24
+        02:00","temp_c":5.0,"temp_f":41.0,"is_day":0,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/night/296.png","code":1183},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":260,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.54,"precip_in":0.02,"snow_cm":0.0,"humidity":87,"cloud":75,"feelslike_c":2.5,"feelslike_f":36.4,"windchill_c":2.5,"windchill_f":36.4,"heatindex_c":4.9,"heatindex_f":40.7,"dewpoint_c":3.9,"dewpoint_f":38.9,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":16.3,"gust_kph":26.3,"uv":1.0},{"time_epoch":1713920400,"time":"2024-04-24
         03:00","temp_c":5.0,"temp_f":41.0,"is_day":0,"condition":{"text":"Light rain
         shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png","code":1240},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":307,"wind_dir":"NW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.4,"precip_in":0.02,"snow_cm":0.0,"humidity":90,"cloud":100,"feelslike_c":2.3,"feelslike_f":36.1,"windchill_c":2.3,"windchill_f":36.1,"heatindex_c":5.0,"heatindex_f":41.0,"dewpoint_c":3.4,"dewpoint_f":38.2,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.3,"gust_kph":16.6,"uv":1.0},{"time_epoch":1713924000,"time":"2024-04-24
         04:00","temp_c":4.7,"temp_f":40.4,"is_day":0,"condition":{"text":"Light rain
@@ -117,5 +115,5 @@ http_interactions:
         nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":9.2,"wind_kph":14.8,"wind_degree":288,"wind_dir":"WNW","pressure_mb":1010.0,"pressure_in":29.82,"precip_mm":0.08,"precip_in":0.0,"snow_cm":0.0,"humidity":91,"cloud":68,"feelslike_c":1.2,"feelslike_f":34.1,"windchill_c":1.2,"windchill_f":34.1,"heatindex_c":4.5,"heatindex_f":40.1,"dewpoint_c":3.2,"dewpoint_f":37.8,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":14.6,"gust_kph":23.4,"uv":1.0},{"time_epoch":1713992400,"time":"2024-04-24
         23:00","temp_c":4.0,"temp_f":39.2,"is_day":0,"condition":{"text":"Patchy rain
         nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":283,"wind_dir":"WNW","pressure_mb":1010.0,"pressure_in":29.81,"precip_mm":0.1,"precip_in":0.0,"snow_cm":0.0,"humidity":93,"cloud":58,"feelslike_c":0.8,"feelslike_f":33.5,"windchill_c":0.8,"windchill_f":33.5,"heatindex_c":4.0,"heatindex_f":39.3,"dewpoint_c":2.9,"dewpoint_f":37.3,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.2,"gust_kph":21.3,"uv":1.0}]}]}}'
-  recorded_at: Tue, 23 Apr 2024 22:25:42 GMT
+  recorded_at: Wed, 24 Apr 2024 00:44:01 GMT
 recorded_with: VCR 6.2.0

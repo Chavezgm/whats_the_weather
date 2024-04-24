@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Apr 2024 22:25:30 GMT
+      - Wed, 24 Apr 2024 00:43:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -31,7 +31,7 @@ http_interactions:
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - 64921aa0-01c0-11ef-b6d7-ebc0802ca241
+      - b702b570-01d3-11ef-9ec4-f78d917d57da
       Access-Control-Allow-Origin:
       - "*"
       Etag:
@@ -40,7 +40,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJwdWVibG8sY28ifSwibG9jYXRpb25zIjpbeyJzdHJlZXQiOiIiLCJhZG1pbkFyZWE2IjoiIiwiYWRtaW5BcmVhNlR5cGUiOiJOZWlnaGJvcmhvb2QiLCJhZG1pbkFyZWE1IjoiUHVlYmxvIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6IlB1ZWJsbyIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6IkNPIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0IjozOC4yNjM3NSwibG5nIjotMTA0LjYxMjUyfSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjM4LjI2Mzc1LCJsbmciOi0xMDQuNjEyNTJ9LCJtYXBVcmwiOiIifV19XX0=
-  recorded_at: Tue, 23 Apr 2024 22:25:30 GMT
+  recorded_at: Wed, 24 Apr 2024 00:43:49 GMT
 - request:
     method: get
     uri: http://api.weatherapi.com/v1/current.json?key=WEATHER_KEY&q=38.26375,-104.61252
@@ -60,7 +60,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Apr 2024 22:25:30 GMT
+      - Wed, 24 Apr 2024 00:43:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -70,7 +70,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-941
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -84,9 +84,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999840'
+      - '4999793'
       X-Varnish:
-      - '42525201'
+      - '43478878'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -94,22 +94,22 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/23/2024 22:25:30
+      - 04/24/2024 00:43:49
       Cdn-Edgestorageid:
       - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 45248dd2c62963267e4fd017d66c614e
+      - 213de516a60161dbbddc739976f66cdf
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Pueblo","region":"Colorado","country":"United
-        States of America","lat":38.26,"lon":-104.61,"tz_id":"America/Denver","localtime_epoch":1713911008,"localtime":"2024-04-23
-        16:23"},"current":{"last_updated_epoch":1713910500,"last_updated":"2024-04-23
-        16:15","temp_c":19.4,"temp_f":66.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1018.0,"pressure_in":30.06,"precip_mm":0.0,"precip_in":0.0,"humidity":25,"cloud":0,"feelslike_c":19.4,"feelslike_f":66.9,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":12.9,"gust_kph":20.7}}'
-  recorded_at: Tue, 23 Apr 2024 22:25:30 GMT
+        States of America","lat":38.26,"lon":-104.61,"tz_id":"America/Denver","localtime_epoch":1713919307,"localtime":"2024-04-23
+        18:41"},"current":{"last_updated_epoch":1713918600,"last_updated":"2024-04-23
+        18:30","temp_c":19.4,"temp_f":66.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":100,"wind_dir":"E","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.02,"precip_in":0.0,"humidity":25,"cloud":0,"feelslike_c":19.4,"feelslike_f":66.9,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":18.1,"gust_kph":29.2}}'
+  recorded_at: Wed, 24 Apr 2024 00:43:49 GMT
 - request:
     method: get
     uri: https://api.yelp.com/v3/businesses/search?categories=italian&latitude=38.26375&limit=1&longitude=-104.61252&sort_by=rating
@@ -135,37 +135,37 @@ http_interactions:
       Content-Type:
       - application/json
       Ratelimit-Resettime:
-      - '2024-04-24T00:00:00+00:00'
-      X-Zipkin-Id:
-      - ad06a45e3fd60ab4
-      X-Routing-Service:
-      - routing-main--useast1-59868f95f7-wxvxk; site=public_api_v3
+      - '2024-04-25T00:00:00+00:00'
       X-Tracing-Auth:
-      - lyOwOeSViv2ULhy88wd98oUXRGHNA56OUFYW59wLV4k
+      - BrWXUf0rr-91zhLFo1H9SCZWjtIbcJzvPdNLCuVsJSc
+      X-Zipkin-Id:
+      - 4d6a7097e5a542a0
       Ratelimit-Dailylimit:
       - '300'
-      Ratelimit-Remaining:
-      - '277'
       X-B3-Sampled:
       - '0'
+      Ratelimit-Remaining:
+      - '295'
+      X-Routing-Service:
+      - routing-main--useast1-59868f95f7-4xvrh; site=public_api_v3
       Server:
       - envoy
       X-Mode:
       - ro
       X-Proxied:
-      - 10-65-160-78-useast1bprod
+      - 10-65-71-10-useast1aprod
       X-Extlb:
-      - 10-65-160-78-useast1bprod
+      - 10-65-71-10-useast1aprod
       Cache-Control:
       - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 23 Apr 2024 22:25:31 GMT
+      - Wed, 24 Apr 2024 00:43:50 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8276-DEN
+      - cache-den8282-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -191,5 +191,5 @@ http_interactions:
         "attributes": {"business_temp_closed": null, "menu_url": null, "open24_hours":
         null, "waitlist_reservation": null}}], "total": 17, "region": {"center": {"longitude":
         -104.61252, "latitude": 38.26375}}}'
-  recorded_at: Tue, 23 Apr 2024 22:25:31 GMT
+  recorded_at: Wed, 24 Apr 2024 00:43:50 GMT
 recorded_with: VCR 6.2.0
